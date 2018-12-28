@@ -1,0 +1,21 @@
+<html>
+<script
+  src="https://code.jquery.com/jquery-1.10.2.js"
+  integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo="
+  crossorigin="anonymous"></script>
+
+<script>
+	$(function()
+	{
+		$( "#link" ).click(function(e)
+		{
+		  $("#content").load("external.html");
+		  e.preventDefault();
+		});
+	});
+</script>
+<body>
+	<a id="link" href="external.html">Link</a>
+	<div id="content"><div>
+</body>
+</html>
