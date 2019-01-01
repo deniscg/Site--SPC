@@ -57,7 +57,7 @@ img {
   width:100%;
 }  
 table {
-  background:none repeat scroll 0 0 rgb(231, 229, 229);
+  background:none repeat scroll 0 0 #fff;
   border:1px solid #f0f0f0;
   border-collapse:collapse;
   border-spacing:0;
@@ -65,14 +65,13 @@ table {
   width:100%;
 }
 table tr td, table tr th {padding:0.625rem;}
-table tfoot, table thead,table tr:nth-of-type(2n) {background:none repeat scroll 0 0 #ccccff;}
-/*
+table tfoot, table thead,table tr:nth-of-type(2n) {background:none repeat scroll 0 0 #f0f0f0;}
 th,table tr:nth-of-type(2n) td {border-right:1px solid #fff;}
 td {border-right:1px solid #f0f0f0;}
 .size-960 .line,.size-1140 .line,.size-1280 .line {
   margin:0 auto;
   padding:0 0.625rem;
-}*/
+}
 hr {
   border: 0;
   border-top: 1px solid #e5e5e5;
